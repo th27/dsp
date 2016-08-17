@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I installed 2.7 for three reasons. I initially invested a lot of time researching / asking around for the best way to get into learning Python. Learn Python the Hard Way was recommended multiple times - I settled on this as my first step. LPTHW is taught in Python 2 and Zed Shaw makes a compelling argument to avoid Python 3. Secondly, it was pre-installed on my Mac - path of least resistance! Thirdly as I did further research on whether I would be making an irreversible decision, all commentary suggested that the transition between 2 and 3, once programming concepts were well learnt would be minimal. I have since done online courses in Python 2 and 3 and have found most of the differences entirely manageable.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 1. Open a terminal windows or shell 2. Type in the following command: python --version
 
  
 
