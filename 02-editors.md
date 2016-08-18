@@ -68,14 +68,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> I chose Sublime Text. 
-
->> I reviewed a number of comparisons between ST and Atom, which assessed across dimensions like set up, usability (find, select, replace), navigation, source control integration, packages / customisation, community and release cycle. ST was consistently rated the better editor. I had always used TextWrangler and Spyder prior to this and found ST significantly better.
-
->> Interesting features include multiple selection (i.e. renaming variables), split editing, "go to" anything (including files, symbols and lines) and the visual minimap!
-
->> Some useful keyboard shortcuts include Com + P for "go to" and Shift + Com + P for Command Palette.
-
->> You can customize your editor by going into preferences and into Settings - Default to toggle a large number of default settings.
+>> I chose Sublime Text. I reviewed a number of comparisons between ST and Atom, which assessed across dimensions like set up, usability (find, select, replace), navigation, source control integration, packages / customisation, community and release cycle. ST was consistently rated the better editor. I had always used TextWrangler and Spyder prior to this and found ST significantly better. Interesting features include multiple selection (i.e. renaming variables), split editing, "go to" anything (including files, symbols and lines) and the visual minimap! Some useful keyboard shortcuts include Com + P for "go to" and Shift + Com + P for Command Palette. You can customize your editor by going into preferences and into Settings - Default to toggle a large number of default settings.
 
  
