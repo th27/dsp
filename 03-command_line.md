@@ -29,6 +29,7 @@ find - find files
 grep - find things inside files  
 exit - exit the shell   
 
+
 ---
 
 ###Q2.  List Files in Unix   
@@ -59,7 +60,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 >> 'ls -d' displays only directories   
 'ls -l' displays the long format listing  
 'ls -m' displays the names as a comma separated list  
-'ls -p' displays directories with / 
+'ls -p' displays directories with /   
 'ls -t' displays newest files first based on timestamp   
 
 ---
