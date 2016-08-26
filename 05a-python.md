@@ -12,20 +12,19 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> Lists and tuples are similar in that they can be any type and they are indexed by integers. However, they are different in that tuples are immutable, where as lists are mutable. The notation for lists are square brackets e.g. [], whereas tuples are notated in normal brackets e.g.().Tuples are commonly used as keys in dictionaries. In fact you can not use lists as keys. This is because dictionaries are implemented using a hashtable, which means that the keys in a dictionary must be hashable. Dictionaries use integers generated via hash functions to look up key-value pairs. This system works only if the keys are immutable (like tuple but not lists). If the key was mutable, a modified key that is hashed would go to a different location and there would be cases where there are multiple entries for the same key.
+<blockquotes> Lists and tuples are similar in that they can be any type and they are indexed by integers. However, they are different in that tuples are immutable, where as lists are mutable. The notation for lists are square brackets e.g. [], whereas tuples are notated in normal brackets e.g.().Tuples are commonly used as keys in dictionaries. In fact you can not use lists as keys. This is because dictionaries are implemented using a hashtable, which means that the keys in a dictionary must be hashable. Dictionaries use integers generated via hash functions to look up key-value pairs. This system works only if the keys are immutable (like tuple but not lists). If the key was mutable, a modified key that is hashed would go to a different location and there would be cases where there are multiple entries for the same key.
 ---
 
 ###Q2. Lists &amp; Sets
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> Lists and sets are both a type of built-in data structure. Lists are ordered sequence of objects, that can contain any type of object and they are mutable.  While a list will keep order, sets are unordered sequence of unique elements that can be mutable or immutable (in the case of frozen sets).
+>> <blockquotes> Lists and sets are both a type of built-in data structure. Lists are ordered sequence of objects, that can contain any type of object and they are mutable.  While a list will keep order, sets are unordered sequence of unique elements that can be mutable or immutable (in the case of frozen sets).
 An example of a list:
-l = [1, 2.0, 'three']
-An example of a set:
-s = set([1, 2, 3])
-Sets perform faster than lists for search functions. This is because sets are implemented using hash tables. When testing for membership within a set, the operation simply looks for an object at the position determined by its hash and therefore speed does not depend on size of the set. For lists, the whole list needs to be searched so the operation will become slower as the list grows.
-
+<code> l = [1, 2.0, 'three']
+<blockquotes> An example of a set:
+<code> s = set([1, 2, 3])
+<blockquotes> Sets perform faster than lists for search functions. This is because sets are implemented using hash tables. When testing for membership within a set, the operation simply looks for an object at the position determined by its hash and therefore speed does not depend on size of the set. For lists, the whole list needs to be searched so the operation will become slower as the list grows.
 
 ---
 
@@ -33,13 +32,13 @@ Sets perform faster than lists for search functions. This is because sets are im
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> lambda in Python is a tool for building function objects without using 'def'i.e. an 'anonymous' function, without a name. It is often used in situations where a shorthand, one-off version of a function is desirable to make code writing easier and the written code clearer.
+>> <blockquotes> lambda in Python is a tool for building function objects without using 'def'i.e. an 'anonymous' function, without a name. It is often used in situations where a shorthand, one-off version of a function is desirable to make code writing easier and the written code clearer.
 An example of a simple lambda application:
-g = lambda x: x ** 2
+<code> g = lambda x: x ** 2
 print g(x)
       
-An example of using a lambda to sort:
-three_tup = [(1,2,3),(6,5,4),(-1,2,5)]
+<blockquotes> An example of using a lambda to sort:
+<code> three_tup = [(1,2,3),(6,5,4),(-1,2,5)]
 print sorted(three_tup, key = lambda tup: tup[2])
 
 ---
