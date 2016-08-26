@@ -20,12 +20,13 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->>Lists and sets are both a type of built-in data structure. Lists are ordered sequence of objects, that can contain any type of object and they are mutable.  While a list will keep order, sets are unordered sequence of unique elements that can be mutable or immutable (in the case of frozen sets). An example of a list: 
+>>Lists and sets are both a type of built-in data structure. Lists are ordered sequence of objects, that can contain any type of object and they are mutable.  While a list will keep order, sets are unordered sequence of unique elements that can be mutable or immutable (in the case of frozen sets).      
 
-l = [1, 2.0, 'three']   
+An example of a list:   
+l = [1, 2.0, 'three']    
 
 An example of a set:    
-s = set([1, 2, 3])	
+s = set([1, 2, 3])      	
 
 Sets perform faster than lists for search functions. This is because sets are implemented using hash tables. When testing for membership within 
 
@@ -35,15 +36,15 @@ Sets perform faster than lists for search functions. This is because sets are im
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->>lambda in Python is a tool for building function objects without using 'def'i.e. an 'anonymous' function, without a name. It is often used in situations where a shorthand, one-off version of a function is desirable to make code writing easier and the written code clearer.
+>>lambda in Python is a tool for building function objects without using 'def'i.e. an 'anonymous' function, without a name. It is often used in situations where a shorthand, one-off version of a function is desirable to make code writing easier and the written code clearer.    
 
-An example of a simple lambda application:
-g = lambda x: x ** 2
-print g(x)
+An example of a simple lambda application:      
+g = lambda x: x ** 2    
+print g(x)  
       
-An example of using a lambda to sort:
-three_tup = [(1,2,3),(6,5,4),(-1,2,5)]
-print sorted(three_tup, key = lambda tup: tup[2])
+An example of using a lambda to sort:     
+three_tup = [(1,2,3),(6,5,4),(-1,2,5)]    
+print sorted(three_tup, key = lambda tup: tup[2])     
 
 ---
 
