@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> Lists are tuples are similar in that they can be any type and they are indexed by integers. However, they are different in that tuples are immutable, where as lists are mutable. The notation for lists are square brackets e.g. [], whereas tuples are notated in normal brackets e.g.().Tuples are commonly used as keys in dictionaries. In fact you can not use lists as keys. This is because dictionaries are implemented using a hashtable, which means that the keys in a dictionary must be hashable. Dictionaries use integers generated via hash functions to look up key-value pairs. This system works only if the keys are immutable (like tuple but not lists). If the key was mutable, a modified key that is hashed would go to a different location and there would be cases where there are multiple entries for the same key.
+>> Lists and tuples are similar in that they can be any type and they are indexed by integers. However, they are different in that tuples are immutable, where as lists are mutable. The notation for lists are square brackets e.g. [], whereas tuples are notated in normal brackets e.g.().Tuples are commonly used as keys in dictionaries. In fact you can not use lists as keys. This is because dictionaries are implemented using a hashtable, which means that the keys in a dictionary must be hashable. Dictionaries use integers generated via hash functions to look up key-value pairs. This system works only if the keys are immutable (like tuple but not lists). If the key was mutable, a modified key that is hashed would go to a different location and there would be cases where there are multiple entries for the same key.
 ---
 
 ###Q2. Lists &amp; Sets
@@ -37,7 +37,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 An example of a simple lambda application:
 g = lambda x: x ** 2
 print g(x)
-
+      
 An example of using a lambda to sort:
 three_tup = [(1,2,3),(6,5,4),(-1,2,5)]
 print sorted(three_tup, key = lambda tup: tup[2])
@@ -48,7 +48,10 @@ print sorted(three_tup, key = lambda tup: tup[2])
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Some text here	          
+<code> snippet here
+Some text here
+<code> snippet
 
 ---
 
