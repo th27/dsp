@@ -56,6 +56,54 @@ print sorted(three_tup, key = lambda tup: tup[2])
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
+>>
+List comprehensions are an easy and elegant way to define and create lists. List comprehensions can be a complete substitute for the lambda function as well as for map() and filter() and are typically a more intuitive syntax that closely resembles mathematical notations.
+
+Two examples of list comprehensions:
+```
+# convert celsius to fahrenheit usng a list comprehension
+celsius = [10, 15, 20, 25, 30, 35]
+fahrenheit_list_comp = [((float(9)/5) * x + 32) for x in celsius]
+print fahrenheit_list_comp
+
+# get even from fib using a list comprehension
+fib = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+even_fib_list_comp = [f for f in fib if f % 2 == 0]
+print even_fib_list_comp
+```
+
+An equivalent of the first example with a map():
+```
+# convert celsius to fahrenheit usng a map
+celsius = [10, 15, 20, 25, 30, 35]
+fahrenheit_map = map(lambda x: ((float(9)/5) * x + 32), celsius)
+print fahrenheit_map
+```
+
+An equivalent of the second example with a filter():
+```
+# get even from fib using a filter()
+fib = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+even_fib_filter = filter(lambda x: x % 2 == 0, fib)
+print even_fib_filter
+```
+
+An example of a set comprehension:
+```
+# return a set (of unique entries) by using a set comprehension
+my_list = [10, 10, 20, 20, 30, 30, 40, 40]
+l_set = {l for l in my_list if l <= 30}
+print l_set
+```
+
+An example of a dictionary comprehension:
+```
+# return an indexed dictionary using a dictionary comprehension
+l = ['a', 'b', 'c', 'd']
+my_dict = {letter: i for i, letter in enumerate(l, start = 1)}
+print my_dict
+```
+
 ---
 
 ###Complete the following problems by editing the files below:
